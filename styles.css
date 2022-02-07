@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(../Kimberly-S.github.io/assets/fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url(../Kimberly-S.github.io/assets/fonts/Raleway/static/Raleway-Regular.ttf);
+}
+
+body {
+    background-color: white;
+  }
+  h1 {
+      font-family: 'Roboto';
+  }
+  p {
+      font-family: 'Raleway';
+  }
