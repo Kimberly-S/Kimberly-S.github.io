@@ -58,44 +58,54 @@ body {
     transform: scale(1.1);
 }
 
+.header-link {
+    font-family: 'Raleway';
+    font-size: 16pt;
+    color: #ffffff;
+}
+
 .icons {
     font-family: 'Roboto';
 }
 
+
 /*scroll arrow animation*/
 .scroll-arrow {
     position: absolute;
-	left: 50%;
-    width: 13px;
-    height: 13px;
+    top: 100%;
+	left: 49%;
+    width: 20px;
+    height: 20px;
     border-bottom: 2px solid #ffffff;
     border-right: 2px solid #ffffff;
-    -webkit-transform: translate(-50%, 0%) rotate(45deg);
-    -moz-transform: translate(-50%, 0%) rotate(45deg);
-    transform: translate(-50%, 0%) rotate(45deg);
+    transform: rotate(45deg);
+
+}
+
+.scroll-arrow:hover {
     -webkit-animation: fade_down 4s ease-in-out infinite;
     -moz-animation:    fade_down 4s ease-in-out infinite;
     animation:         fade_down 4s ease-in-out infinite;
 }
 
 @-webkit-keyframes fade_down {
-    0%   { transform: translate(0,-5px) rotate(45deg); opacity: 0; }
+    0%   { -webkit-transform: translate(0,0px) rotate(45deg); opacity: 0; }
     25%  { opacity: 1; }
     50%  { opacity: 1; }
     95%  { opacity: 1; }
-    100% { -webkit-transform: translate(0,0px) rotate(45deg); opacity: 0; }
+    100% { -webkit-transform: translate(0,5px) rotate(45deg); opacity: 0; }
 }
 @-moz-keyframes fade_down {
-    0%   { transform: translate(0,-5px) rotate(45deg); opacity: 0; }
+    0%   { -moz-transform: translate(0,0px) rotate(45deg); opacity: 0; }
     25%  { opacity: 1; }
     50%  { opacity: 1; }
     95%  { opacity: 1; }
-    100% { -webkit-transform: translate(0,0px) rotate(45deg); opacity: 0; }
+    100% { -moz-transform: translate(0,5px) rotate(45deg); opacity: 0; }
 }
 @keyframes fade_down {
-    0%   { transform: translate(0,-5px) rotate(45deg); opacity: 0; }
+    0%   { transform: translate(0,0px) rotate(45deg); opacity: 0; }
     25%  { opacity: 1; }
     50%  { opacity: 1; }
     95%  { opacity: 1; }
-    100% { -webkit-transform: translate(0,0px) rotate(45deg); opacity: 0; }
+    100% { transform: translate(0,5px) rotate(45deg); opacity: 0; }
 }
