@@ -146,7 +146,7 @@ body {
 }
 
 .landing-image {
-    background-image: url("../Kimberly-S.github.io/assets/images/pexels-alex-qian-4914161.jpg");
+    background-image: url("../Kimberly-S.github.io/assets/images/background.jpg");
     height: 100%;
     width: 100%;
     margin: 0;
@@ -223,11 +223,10 @@ body {
 /* Section 2 (About) */
 .section2 {
     height: 100%;
-    padding-top: 5%;
 }
 
 .about-content {
-    
+    padding-top: 5%;
 }
 
 /* Section 3 (Projects) */
