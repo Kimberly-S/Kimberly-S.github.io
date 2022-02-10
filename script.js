@@ -1,5 +1,5 @@
 // navbar highlight current page
-
+// TODO: remove/refine repeated code sections
 document.addEventListener('DOMContentLoaded', function() {
     const home = document.getElementById("home");
     const about = document.getElementById("about");
