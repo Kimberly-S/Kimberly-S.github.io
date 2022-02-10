@@ -163,10 +163,15 @@ body {
     font-size: 16pt;
     color: #ffffff;
     padding-right: 20px;
+    transition: all 0.2s ease;
 }
 
 .landing-link i {
     padding: 0 5px;
+}
+
+.landing-link a:hover {
+    color: lightgrey;
 }
 
 .icons {
