@@ -1,1 +1,6 @@
-star background - Photo by Jakub Novacek from Pexels. URL: https://www.pexels.com/photo/time-lapse-photo-of-stars-on-night-924824/
+star background - https://www.pexels.com/photo/scenic-view-of-a-starry-night-sky-4914161/
+
+							<p>Icons or text for github, linkedin, email in the top right</p>
+							<p> dots to indicate what page you're on </p>
+						<p> Then scroll down to black rectangle + white text of about and projects, flexbox for projects</p>
+						<p> also need a back to top button and maybe some underlines for the navbar </p>
