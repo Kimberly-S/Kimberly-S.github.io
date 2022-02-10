@@ -83,7 +83,7 @@ body {
     padding: 0 0;
     width: 80%;
     max-width: 80%;
-    font-size: 24px;
+    font-size: 18pt;
     text-align: center;
     color: white;
     font-family: "Roboto";
@@ -109,7 +109,7 @@ body {
 
 .navbar-links li a:hover {
     text-shadow: 0 0 5px #8d8d8d;
-    font-size: 16pt;
+    background-color: rgba(73, 73, 73, 0.5);
 }
 
 .navbar-links li a.current {
