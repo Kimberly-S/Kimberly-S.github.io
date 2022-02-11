@@ -15,13 +15,13 @@ html {
 }
 
 body {
-    background-color: black;
+    background-color: rgb(29, 29, 29);
     color: white;
   }
-  h1 {
+  h1, h2, h3 {
       font-family: 'Roboto';
   }
-  p {
+  p, ul, li {
       font-family: 'Raleway';
   }
 
@@ -228,24 +228,34 @@ body {
 .about-content {
     padding-top: 5%;
     font-size: 14pt;
+    padding-bottom: 5%;
 }
 
 /* Section 3 (Experience) */
 .section3 {
-    height: 100%;
+    height: auto;
 }
 
 .experience-content {
-    padding-top: 5%;
+    font-size: 14pt;
+    padding-bottom: 5%;
+}
+
+.experience-heading {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
 }
 
 /* Section 4 (Projects) */
 .section4 {
-    height: 100%;
+    height: auto;
 }
 
 .projects-content {
-    padding-top: 5%;
+    padding-top: 10%;
+    font-size: 14pt;
+    padding-bottom: 5%;
 }
 
 /* Footer (Contact) */
