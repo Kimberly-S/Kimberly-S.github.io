@@ -299,7 +299,7 @@ body {
 /* Media Size */
 @media (max-width:1000px) {
     .wrapper {
-        width: 100%;
+        width: 90%;
     }
     /* Header (Navbar) */
     .navbar {
