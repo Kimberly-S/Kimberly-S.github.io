@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Roboto';
-    src: url(../Kimberly-S.github.io/assets/fonts/Roboto/Roboto-Regular.ttf);
+    src: url(./assets/fonts/Roboto/Roboto-Regular.ttf);
 }
 
 @font-face {
     font-family: 'Raleway';
-    src: url(../Kimberly-S.github.io/assets/fonts/Raleway/static/Raleway-Regular.ttf);
+    src: url(./assets/fonts/Raleway/static/Raleway-Regular.ttf);
 }
 
 html {
@@ -293,4 +293,115 @@ body {
     color: white;
     list-style: none;
     font-family: "Raleway";
+}
+
+
+
+/* Media Size */
+@media (max-width:1000px) {
+    .wrapper {
+        width: 100%;
+    }
+    /* Header (Navbar) */
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 0;
+        width: 100%;
+        max-width: 100%;
+        font-size: 10pt;
+        text-align: center;
+        color: white;
+        font-family: "Roboto";
+        font-weight: bold;
+        
+    }
+
+    .navbar-links {
+        list-style: none;
+        display: flex;
+    }
+
+    .navbar-links li {
+        display: inline block;
+    }
+
+    .navbar-links li a {
+        transition: all 0.2s ease 0s;
+        text-decoration: none;
+        color: white;
+        padding: 5px;
+    }
+
+    .navbar-links li a:hover {
+        text-shadow: 0 0 5px #8d8d8d;
+        background-color: rgba(73, 73, 73, 0.5);
+    }
+
+    .navbar-links li a.current {
+        border-bottom: solid white 2px;
+    }
+
+    .landing-title {
+        font-size: 48pt;
+    }
+    .landing-subtitle {
+        font-size: 16pt;
+    }
+    .landing-content {
+        text-align: center;
+        transform: translate(-50%, -50%);
+        padding: 0 10px;
+    }
+    .landing-link {
+        font-size: 14pt;
+        padding-right: 20px;
+    }
+    .landing-link i {
+        padding: 0 5px;
+    }
+    .about-content {
+        font-size: 12pt;
+        padding: 10px;
+    }
+    .experience-heading {
+        padding: 5px;
+    }
+    .experience-title {
+        padding: 0 10px;
+        flex-wrap: wrap;
+    }
+    .experience-title h3 {
+        margin: 0;
+    }
+    .experience-content {
+        font-size: 12pt;
+        padding: 10px;
+    }
+    .projects-content {
+        flex-direction: column;
+        font-size: 12pt;
+    }
+    .footer-content {
+        font-size: 12pt;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1500px) {
+    .scroll-arrow {
+        top: 90%;
+    }
 }
