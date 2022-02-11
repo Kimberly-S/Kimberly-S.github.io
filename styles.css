@@ -30,7 +30,7 @@ body {
 }
 
 .wrapper {
-    width: 80%;
+    width: 60%;
     margin: auto;
 }
 
@@ -227,6 +227,7 @@ body {
 
 .about-content {
     padding-top: 5%;
+    font-size: 14pt;
 }
 
 /* Section 3 (Projects) */
