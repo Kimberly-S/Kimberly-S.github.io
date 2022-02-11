@@ -241,6 +241,10 @@ body {
     padding-bottom: 5%;
 }
 
+.experience-content li {
+    line-height: 3vh;
+}
+
 .experience-heading {
     display: flex;
     justify-content: space-between;
@@ -253,9 +257,20 @@ body {
 }
 
 .projects-content {
-    padding-top: 10%;
     font-size: 14pt;
     padding-bottom: 5%;
+    padding-top: 0;
+    display: flex;
+}
+
+.projects-heading {
+    padding-top: 10%;
+}
+
+.projects-img {
+    height: 300px;
+    width: 200px;
+    padding-right: 5%;
 }
 
 /* Footer (Contact) */
@@ -265,4 +280,12 @@ body {
 
 .footer-content {
     padding-top: 5%;
+    font-size: 14pt;
+    padding-bottom: 10%;
+}
+
+.footer-content a{
+    color: white;
+    list-style: none;
+    font-family: "Raleway";
 }
