@@ -222,7 +222,7 @@ body {
 
 /* Section 2 (About) */
 .section2 {
-    height: 100%;
+    height: auto;
 }
 
 .about-content {
@@ -230,8 +230,17 @@ body {
     font-size: 14pt;
 }
 
-/* Section 3 (Projects) */
+/* Section 3 (Experience) */
 .section3 {
+    height: 100%;
+}
+
+.experience-content {
+    padding-top: 5%;
+}
+
+/* Section 4 (Projects) */
+.section4 {
     height: 100%;
 }
 
