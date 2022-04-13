@@ -259,16 +259,24 @@ body {
     height: auto;
 }
 
+.projects-heading {
+    padding-top: 10%;
+    padding-bottom: 2%;
+}
+
 .projects-content {
     font-size: 14pt;
     padding-bottom: 5%;
     padding-top: 0;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.projects-heading {
-    padding-top: 10%;
-    padding-bottom: 2%;
+.projects-item {
+    flex: 0 50%;
+    height: 200px;
+    margin-bottom: 2%; /* (100-32*3)/2 */
 }
 
 .projects-img {
