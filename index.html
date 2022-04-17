@@ -104,7 +104,7 @@
 					<div class="projects-content">
 						<div class ="projects-item">
 							<div class = "card-container">
-								<img class = "card-img" src="./assets/images/3clearning.PNG">
+								<img class = "card-img" src="./assets/images/3clearning.PNG" aria-label="Screenshot of 3CLearning's branding website">
 								<div class = "card-content">
 									<h3>Product Website</h3>
 									<span class = "project-type">Corporate</span>
@@ -115,14 +115,14 @@
 										Created using Elementor, Wordpress, HTML / CSS.
 									</p>
 								</div>
-								<a class="card-button" href="https://www.3clearning.com.au/" target="_blank">
+								<a aria-label="Visit Website"  class="card-button" href="https://www.3clearning.com.au/" target="_blank">
 									Visit Website
 								</a>
 							</div>
 						</div>
 						<div class ="projects-item">
 							<div class = "card-container">
-								<img class = "card-img" src="./assets/images/tumblr theme.PNG">
+								<img class = "card-img" src="./assets/images/tumblr theme.PNG" aria-label="Screenshot of Tumblr theme designs">
 								<div class = "card-content">
 									<h3>Blog and Portfolio Themes</h3>
 									<span class = "project-type">Personal Project</span>
@@ -134,14 +134,14 @@
 										Created using HTML / CSS and Javascript.
 									</p>
 								</div>
-								<a class="card-button" href="https://celestial-brew-theme.tumblr.com/" target="_blank">
+								<a aria-label="Visit Website" class="card-button" href="https://celestial-brew-theme.tumblr.com/" target="_blank">
 									Visit Website
 								</a>
 							</div>
 						</div>
 						<div class ="projects-item">
 							<div class = "card-container">
-								<img class = "card-img" src="./assets/images/monkeeats.PNG">
+								<img class = "card-img" src="./assets/images/monkeeats.PNG" aria-label="Screenshot of Restaurant website">
 								<div class = "card-content">
 									<h3>MonkeEats: Restaurant Review Platform</h3>
 									<span class = "project-type">University Project</span>
@@ -157,7 +157,7 @@
 						</div>
 						<div class ="projects-item">
 							<div class = "card-container">
-								<img class = "card-img" src="./assets/images/connexa3.PNG">
+								<img class = "card-img" src="./assets/images/connexa3.PNG" aria-label="Screenshot of mobile app porototyping">
 								<div class = "card-content">
 									<h3>Connexa: University App Prototype</h3>
 									<span class = "project-type">University Project</span>
@@ -174,7 +174,7 @@
 						</div>
 						<div class ="projects-item">
 							<div class = "card-container">
-								<img class = "card-img" src="./assets/images/gardenplanwip.PNG">
+								<img class = "card-img" src="./assets/images/gardening simple.PNG" aria-label="Screenshot of simple grid">
 								<div class = "card-content">
 									<h3>XIV Gardening (WIP)</h3>
 									<span class = "project-type">Personal Project</span>
@@ -186,7 +186,7 @@
 										Created using HTML / CSS, Javascript.
 									</p>
 								</div>
-								<div id="gardeningButton" class="card-button" onclick="gardeningButton()">
+								<div aria-label="Visit Website" id="gardeningButton" class="card-button" onclick="gardeningButton()">
 									Visit Website
 								</div>
 							</div>
@@ -199,7 +199,22 @@
 						<i class="fa-solid fa-xmark fa-2x" aria-label="Close Button"></i>
 					</div>
 					<div class="popup-container">
-						<p>test</p>
+						<h2>XIV Gardening Planner (WIP)</h2>
+						<p>
+							This is a simple grid for planning out plant positions in a garden bed. To highlight a square, click on it.
+						</p>
+						<div class="grid-container">
+							<button aria-label="Grid 1" class="grid-button" value="1" id="1" onclick="gridButton(this.id)">1</button>
+							<button aria-label="Grid 2" class="grid-button" value="2" id="2" onclick="gridButton(this.id)">2</button>
+							<button aria-label="Grid 3" class="grid-button" value="3" id="3" onclick="gridButton(this.id)">3</button>
+							<button aria-label="Grid 8" class="grid-button" value="8" id="8" onclick="gridButton(this.id)">8</button>
+							<button aria-label="Scarecrow Position" class="center-button">Scarecrow Position</button>
+							<button aria-label="Grid 4" class="grid-button" value="4" id="4" onclick="gridButton(this.id)">4</button>
+							<button aria-label="Grid 7" class="grid-button" value="7" id="7" onclick="gridButton(this.id)">7</button>
+							<button aria-label="Grid 6" class="grid-button" value="6" id="6" onclick="gridButton(this.id)">6</button>
+							<button aria-label="Grid 5" class="grid-button" value="5" id="5" onclick="gridButton(this.id)">5</button>
+						</div>
+						<button aria-label="Reset" class="reset-button" id="reset" onclick="resetButton()">Reset</button>
 					</div>
 				</div>
 				<!-- Footer (Contact) -->

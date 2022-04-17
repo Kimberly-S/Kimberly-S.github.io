@@ -10,4 +10,17 @@ function closeButton() {
     document.getElementById("gardeningProject").style.opacity = 0;
     document.body.style.position = '';
 }
+
+// buttons
+function gridButton(id) {
+    const button = document.getElementById(id);
+    button.classList.toggle("grid-coloured");
+}
+
+function resetButton() {
+    let buttons = [1, 2, 3, 4, 6, 7, 8, 9]
+    for (let i = 0; i < buttons.length; i++) {
+        document.getElementById(buttons[i]).classList.remove("grid-coloured");
+    }
+}
   
